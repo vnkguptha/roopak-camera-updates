@@ -14,7 +14,7 @@ chmod +x \
 sudo systemctl restart camera.service
 sudo systemctl restart roopak-dashboard.service
 
-echo '{"version":"1.0.2"}' \
+echo '{"version":"1.0.3"}' \
 > /home/roopak/roopak-camera/version.json
 
 sudo reboot
